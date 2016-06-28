@@ -1,0 +1,28 @@
+{
+  "name": "transpiling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    " build": "browserify index.js -t babelify -o bundle.js"
+  },
+  "browserify": {
+    "transform": ["babelify"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelDong32/transpiling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelDong32/transpiling/issues"
+  },
+  "homepage": "https://github.com/MichaelDong32/transpiling#readme",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1"
+  }
+}
